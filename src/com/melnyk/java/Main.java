@@ -20,8 +20,7 @@ public class Main extends Application {
         primaryStage.setMinHeight(600);
         primaryStage.setMinWidth(1000);
         primaryStage.setMaximized(true);
-        Image mainIcon = new Image("/resources/images/drone.png");
-        primaryStage.getIcons().add(mainIcon);
+
         primaryStage.setOnCloseRequest( event -> {//Показати вікно підтвердження виходу при закритті вікна
             if(!DialogManager.showConfirmationDialogForExit("Підтвердження виходу","Ви дійсно бажаєте закрити програму?"))
                 event.consume();
