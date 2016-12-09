@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Kursova OOP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Kursova_OOP_jar</output-path>
+    <root id="archive" name="Kursova OOP.jar">
+      <element id="module-output" name="Kursova OOP" />
+      <element id="dir-copy" path="$PROJECT_DIR$/out/production/Kursova OOP/resources" />
+    </root>
+  </artifact>
+</component>
